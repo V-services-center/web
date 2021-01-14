@@ -57,7 +57,7 @@
     "webpack-dev-server": "3.2.1"
   },
   "dependencies": {
-    "@babel/runtime-corejs3": "7.4.5",
+    "@babel/runtime-corejs3": "7.12.5",
     "apollo-cache-inmemory": "1.6.0",
     "apollo-client": "2.6.0",
     "apollo-link-error": "1.1.10",
