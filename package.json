@@ -6,7 +6,9 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
-    "stats": "cross-env NODE_ENV=production webpack --stats --json > stats.json"
+    "stats": "cross-env NODE_ENV=production webpack --stats --json > stats.json",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -78,6 +80,8 @@
     "react-router": "5.0.0",
     "react-router-dom": "5.0.0",
     "styled-components": "4.2.0",
-    "styled-normalize": "8.0.6"
-  }
+    "styled-normalize": "8.0.6",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
