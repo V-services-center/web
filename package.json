@@ -77,7 +77,7 @@
     "react-modal": "3.8.1",
     "react-router": "5.0.0",
     "react-router-dom": "5.0.0",
-    "styled-components": "4.2.0",
+    "styled-components": "5.3.5",
     "styled-normalize": "8.0.6"
   }
 }
